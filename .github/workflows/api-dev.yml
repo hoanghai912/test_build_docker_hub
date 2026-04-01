@@ -22,6 +22,6 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           context: .
-          file: Dockerfile.base
+          file: Dockerfile
           push: true
           tags: hoanghai911/document-process-base:latest
